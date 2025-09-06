@@ -1,0 +1,71 @@
+name: coin_box_test
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  go_router: ^16.0.0
+  flutter_svg: ^2.2.0
+  logger: ^2.6.0
+  fluttertoast: ^8.2.12
+  dio: ^5.8.0+1
+  cached_network_image: ^3.4.1
+  country_flags:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  riverpod_lint: ^2.6.5
+  custom_lint: ^0.7.6
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Roboto-Thin
+      fonts:
+        - asset: assets/fonts/Roboto-Thin.ttf
+    - family: Roboto-Light
+      fonts:
+        - asset: assets/fonts/Roboto-Light.ttf
+    - family: Roboto-Regular
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Roboto-Medium
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+    - family: Roboto-SemiBold
+      fonts:
+        - asset: assets/fonts/Roboto-SemiBold.ttf
+    - family: Roboto-Bold
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+    - family: Roboto-ExtraBold
+      fonts:
+        - asset: assets/fonts/Roboto-ExtraBold.ttf
