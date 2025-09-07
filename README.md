@@ -2,8 +2,8 @@
 
 ## SCREENSHOTS
 
-![Home Screen](screenshots/s1.png)
-![Home Screen](screenshots/s2.png)
+![Home Screen 1](screenshots/s1.png)
+![Home Screen 2](screenshots/s2.png)
 
 ## Getting Started
 
